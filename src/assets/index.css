@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@layer components{
+    
+  :root {
+    --blue: #E6F3F5;
+    --gray: #EAEEFA;
+    --purple: #F9EEF3;
+    --yellow: #F3F7D9;
+    --broken-white: #F0FEEB;
+  }
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+  .card{
+    @apply px-6 lg:py-10 py-8 rounded-lg lg:h-72 h-64 drop-shadow-md backdrop-blur-sm;
+  }
+  .card--blue{
+    background-color: var(--blue);
+  }
+  .card--purple{
+    background-color: var(--purple);
+  }
+  .card--gray{
+    background-color: var(--gray);
+  }
+  .card--yellow{
+    background-color: var(--yellow);
+  }
+  .card--broken-white{
+    background-color: var(--broken-white);
+  }
+  .carousel {
+    overflow: hidden;
+  }
+  .inner {
+    transition: transform 0.2s;
+    white-space: nowrap;
+    height: 200px;
+  }
+  .card-carousel {
+    width: 230px;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 175px;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: linear 0.5s;
+  }
+  .hover-white svg:hover{
+    stroke: #ffffff;
+  }
+  .card-carousel:hover {
+    height: 200px;
+  }
+  button {
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+}
