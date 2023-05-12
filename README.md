@@ -1,24 +1,13 @@
-# elemesgroup-tech-test
+# How To Install and Run elemesgroup-tech-test
 
-## Project setup
-```
+# ========== 1. Project Clone ==========
+With SSH : git clone git@github.com:iammalikey/elemes-group-tech-test.git
+
+# ========== 2. Project Setup ==========
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+# ========== 3. Run Development Project ==========
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# ========== 4. Deployment Link ==========
+https://iammalikey.github.io/elemes-group-tech-test/
